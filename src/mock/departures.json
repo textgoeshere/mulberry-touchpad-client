@@ -1,0 +1,101 @@
+{"Arcades-Bourse-bus-stib":{
+  "source": "Arcades-Bourse-bus-stib",
+  "title": "95 to Bourse",
+  "description": "Arcades to Bourse on bus 95",
+  "name": "Arcades-Bourse-bus-stib",
+  "location": "Arcades",
+  "updated_at": 1316349008,
+  "weight": 1,
+  "departures": "1 mins, Anneessens Devie Marche\n7 mins, Anneessens Devie Marche",
+  "vehicle": "bus"
+},"Arcades-Wiener-bus-stib":{
+  "source": "Arcades-Wiener-bus-stib",
+  "title": "95 to Wiener",
+  "description": "Arcades to Wiener on bus 95",
+  "name": "Arcades-Wiener-bus-stib",
+  "location": "Arcades",
+  "updated_at": 1316349008,
+  "weight": 100000,
+  "departures": "6 mins, Wiener\n12 mins, Wiener",
+  "vehicle": "bus"
+},"Solbosch-Boondael-Herrmann-Debroux-tram-stib":{
+  "source": "Solbosch-Boondael-Herrmann-Debroux-tram-stib",
+  "title": "94 to Boondael/Herrmann Debroux",
+  "description": "Solbosch to Boondael/Herrmann Debroux on tram 94",
+  "name": "Solbosch-Boondael-Herrmann-Debroux-tram-stib",
+  "location": "Solbosch",
+  "updated_at": 1316349008,
+  "weight": 100000,
+  "departures": "",
+  "vehicle": "tram"
+},"Solbosch-Louise-tram-stib":{
+  "source": "Solbosch-Louise-tram-stib",
+  "title": "94 to Louise",
+  "description": "Solbosch to Louise on tram 94",
+  "name": "Solbosch-Louise-tram-stib",
+  "location": "Solbosch",
+  "updated_at": 1316349008,
+  "weight": 2,
+  "departures": "",
+  "vehicle": "tram"
+},"Cimetiere-d-Ixelles-de-Brouckere-bus-stib":{
+  "source": "Cimetiere-d-Ixelles-de-Brouckere-bus-stib",
+  "title": "71 to de Brouckere",
+  "description": "Cimetiere d'Ixelles to de Brouckere on bus 71",
+  "name": "Cimetiere-d-Ixelles-de-Brouckere-bus-stib",
+  "location": "Cimetiere d'Ixelles",
+  "updated_at": 1316349008,
+  "weight": 3,
+  "departures": "1 mins, De Brouckere\n6 mins, De Brouckere",
+  "vehicle": "bus"
+},"Watermael-Gare-Heros-bus-stib":{
+  "source": "Watermael-Gare-Heros-bus-stib",
+  "title": "45 to Heros",
+  "description": "Watermael Gare to Heros on bus 45",
+  "name": "Watermael-Gare-Heros-bus-stib",
+  "location": "Watermael Gare",
+  "updated_at": 1316349008,
+  "weight": 100000,
+  "departures": "10 mins, Heros\n30 mins, Heros",
+  "vehicle": "bus"
+},"Watermael-Gare-Transvaal-bus-stib":{
+  "source": "Watermael-Gare-Transvaal-bus-stib",
+  "title": "45 to Transvaal",
+  "description": "Watermael Gare to Transvaal on bus 45",
+  "name": "Watermael-Gare-Transvaal-bus-stib",
+  "location": "Watermael Gare",
+  "updated_at": 1316349008,
+  "weight": 100000,
+  "departures": "1 mins, Transvaal\n22 mins, Transvaal",
+  "vehicle": "bus"
+},"Watermael-Station-Bruxelles-Midi-train-sncb":{
+  "source": "Watermael-Station-Bruxelles-Midi-train-sncb",
+  "title": "The train to Bruxelles Midi",
+  "description": "Watermael Station to Bruxelles Midi on train The train",
+  "name": "Watermael-Station-Bruxelles-Midi-train-sncb",
+  "location": "Watermael Station",
+  "updated_at": 1316349008,
+  "weight": 4,
+  "departures": "13:49, Bruxelles-Midi\n14:49, Bruxelles-Midi",
+  "vehicle": "train"
+},"Delta-Erasme--into-town--metro-stib":{
+  "source": "Delta-Erasme--into-town--metro-stib",
+  "title": "5 to Erasme (into town)",
+  "description": "Delta to Erasme (into town) on metro 5",
+  "name": "Delta-Erasme--into-town--metro-stib",
+  "location": "Delta",
+  "updated_at": 1316349008,
+  "weight": 5,
+  "departures": "5 mins, Erasme\n12 mins, Erasme",
+  "vehicle": "metro"
+},"Delta-Herrmann-Debroux-metro-stib":{
+  "source": "Delta-Herrmann-Debroux-metro-stib",
+  "title": "5 to Herrmann Debroux",
+  "description": "Delta to Herrmann Debroux on metro 5",
+  "name": "Delta-Herrmann-Debroux-metro-stib",
+  "location": "Delta",
+  "updated_at": 1316349008,
+  "weight": 100000,
+  "departures": "4 mins, Herrmann Debroux\n13 mins, Herrmann Debroux",
+  "vehicle": "metro"
+}}
