@@ -1,0 +1,9 @@
+{
+  "id": "com.palm.kapoq.mulberry-touchpad-client",
+  "version": "0.0.1",
+  "vendor": "Kapoq",
+  "type": "web",
+  "main": "index.html",
+  "title": "Mulberry",
+  "uiRevision": "2"
+}
