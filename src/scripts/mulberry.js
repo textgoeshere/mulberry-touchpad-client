@@ -14,6 +14,7 @@ enyo.kind({
   },
   renderDepartures: function(sender, response) {
     this.results = [];
+    // TODO: underscoreize
     for(key in response) {
       travel_service = response[key];
       if(travel_service.departures)
@@ -29,7 +30,15 @@ enyo.kind({
       var r = this.results[index];
       if (r) {
         this.$.title.setCaption(r.description);
-        this.$.description.setContent(r.departures);
+        var content = _.map(r.departures, function(departure, index) {
+          var name    = enyo.macroize("departure{$index}", { index: index });
+          return enyo.macroize("{$time} {$destination}", departure);
+        }, this);
+        if(_.any(content)) {
+          this.$.content.setContent(content.join("<br>"));
+        } else {
+          this.$.content.setContent("n/a");
+        }
         return true;
       }
     }
@@ -60,7 +69,7 @@ enyo.kind({
         components: [
           { kind: "Item", layoutKind: "VFlexLayout", components: [
             { name: "title", kind: "Divider" },
-            { name: "description" }
+            { name: "content", kind: "HtmlContent" }
           ]}
         ]
       }
